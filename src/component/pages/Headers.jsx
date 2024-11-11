@@ -1,44 +1,56 @@
-import React, { Component } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 
+import Home from "./Home";
+import Services from "./Services";
+import Portfolio from "./Portfolio";
+import Contact from "./Contact";
+import Mentions from "./Mentions";
 
 
-export default class Headers extends React.Component {
+function Headers() {
 
-    render() {
         return(
             <header>
-                <nav class="navbar bg-body-tertiary bg-dark" data-bs-theme="dark">
+                <nav class="navbar navbar-expand-lg bg-dark text-light fixed-top">
                     <div class="container-fluid">
-                        <p>JOHN DOE</p>
-                        <div class="collapse navbar-collapse d-flex" id="navbarNav">
-                            <ul class="navbar-nav">
+                        <span>JOHN DOE</span>
+                        <button class="navebar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                            <span class="navbar-toggler-icon "></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="menu">
+                            <ul class="navbar-nav justify-content-end flex-grow-1">
                                 <li class="nav-item">
-                                    <Link class="nav-link active" aria-current="page" to="#">HOME</Link>
+                                    <Link class="nav-link link-light" to="./">HOME</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link class="nav-link" to="#">SERVICES</Link>
+                                    <Link class="nav-link link-light" to="./Services">SERVICES</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link class="nav-link" to="#">PORTFOLIO</Link>
+                                    <Link class="nav-link link-light" to="./Portfolio">PORTFOLIO</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link class="nav-link" to="#">CONTACT</Link>
+                                    <Link class="nav-link link-light" to="./Contact">CONTACT</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link class="nav-link" to="#">MENTIONS LEGALES</Link>
+                                    <Link class="nav-link link-light" to="./Mentions">MENTIONS LEGALES</Link>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </nav>
+                <Routes>
+                    <Route path="./" element={<Home/>}></Route>
+                    <Route path="./Services" element={<Services/>}></Route>
+                    <Route path="./Portfolio" element={<Portfolio/>}></Route>
+                    <Route path="./Contact" element={<Contact/>}></Route>
+                    <Route path="./Mentions" element={<Mentions/>}></Route>
+                </Routes>
             </header>
         );
-    }
 } 
 
 
 
 
 
-
+export default Headers;
