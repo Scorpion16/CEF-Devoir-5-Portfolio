@@ -11,13 +11,18 @@ function Headers() {
 
         return(
             <header>
-                <nav class="navbar navbar-expand-lg bg-dark text-light fixed-top">
-                    <div class="container-fluid">
-                        <span>JOHN DOE</span>
-                        <button class="navebar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
-                            <span class="navbar-toggler-icon "></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="menu">
+                <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
+                    
+                    <span class="text-light mx-5">JOHN DOE</span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-end flex-grow-1">
                                 <li class="nav-item">
                                     <Link class="nav-link link-light" to="./">HOME</Link>
@@ -35,7 +40,7 @@ function Headers() {
                                     <Link class="nav-link link-light" to="./Mentions">MENTIONS LEGALES</Link>
                                 </li>
                             </ul>
-                        </div>
+                        </div>                    
                     </div>
                 </nav>
                 <Routes>
