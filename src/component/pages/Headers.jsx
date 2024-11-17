@@ -9,49 +9,48 @@ import Mentions from "./Mentions";
 
 function Headers() {
 
-        return(
-            <header>
-                <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
-                    
-                    <span class="text-light mx-5">JOHN DOE</span>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
-                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <ul class="navbar-nav justify-content-end flex-grow-1">
-                                <li class="nav-item">
-                                    <Link class="nav-link link-light" to="./">HOME</Link>
-                                </li>
-                                <li class="nav-item">
-                                    <Link class="nav-link link-light" to="./Services">SERVICES</Link>
-                                </li>
-                                <li class="nav-item">
-                                    <Link class="nav-link link-light" to="./Portfolio">PORTFOLIO</Link>
-                                </li>
-                                <li class="nav-item">
-                                    <Link class="nav-link link-light" to="./Contact">CONTACT</Link>
-                                </li>
-                                <li class="nav-item">
-                                    <Link class="nav-link link-light" to="./Mentions">MENTIONS LEGALES</Link>
-                                </li>
-                            </ul>
-                        </div>                    
+    return(
+        <header>
+            <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top"> 
+                <span class="text-light text-uppercase px-5">John Doe</span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                </nav>
-                <Routes>
-                    <Route path="./" element={<Home/>}></Route>
-                    <Route path="./Services" element={<Services/>}></Route>
-                    <Route path="./Portfolio" element={<Portfolio/>}></Route>
-                    <Route path="./Contact" element={<Contact/>}></Route>
-                    <Route path="./Mentions" element={<Mentions/>}></Route>
-                </Routes>
-            </header>
-        );
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 px-3">
+                            <li class="nav-item">
+                                <Link class="nav-link link-light text-uppercase" to="./Home">Home</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link class="nav-link link-light text-uppercase" to="./Services">Services</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link class="nav-link link-light text-uppercase" to="./Portfolio">Portfolio</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link class="nav-link link-light text-uppercase" to="./Contact">Contact</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link class="nav-link link-light text-uppercase" to="./Mentions">Mentions légales</Link>
+                            </li>
+                        </ul>
+                    </div>                    
+                </div>
+            </nav>
+            <Routes>
+                <Route path="./Home" element={<Home/>}></Route>
+                <Route path="./Services" element={<Services/>}></Route>
+                <Route path="./Portfolio" element={<Portfolio/>}></Route>
+                <Route path="./Contact" element={<Contact/>}></Route>
+                <Route path="./Mentions" element={<Mentions/>}></Route>
+            </Routes>
+        </header>
+    );
 } 
 
 

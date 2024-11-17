@@ -1,13 +1,13 @@
 
 
-import Headers from "./Headers";
+
 
 function Home() {
     return(
-
         <div>
-            <Headers/>
-            <p>HOME</p>
+            <main class="text-dark">
+                <p>HOME</p>
+            </main>
         </div>
     );
 }
