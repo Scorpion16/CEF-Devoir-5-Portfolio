@@ -1,5 +1,6 @@
 
 
+import Footers from "./Footers";
 import Headers from "./Headers";
 
 function Services() {
@@ -8,6 +9,7 @@ function Services() {
         <div>
             <Headers/>
             <p>SERVICES</p>
+            <Footers/>
         </div>
     );
 }
