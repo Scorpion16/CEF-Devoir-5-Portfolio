@@ -11,7 +11,7 @@ function Headers() {
 
     return(
         <header>
-            <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top"> 
+            <nav class="navbar navbar-dark navbar-expand-lg bg-dark sticky-top"> 
                 <span class="text-light text-uppercase px-5">John Doe</span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
                     <span class="navbar-toggler-icon"></span>

@@ -10,25 +10,25 @@ import Mentions from "./Mentions";
 
 function Footers() {
     return(
-        <footer class="bg-dark text-light fixed-bottom">
+        <footer class="bg-dark text-light sticky-bottom">
             <div class="container">
-                <div class="row mx-5 my-4 px-5">
+                <div class="row mx-lg-5 my-lg-4 px-lg-5">
                     <div class="col-md-4">
                         <ul class="list-unstyled w-33">
                             <li>
                                 <h4>John Doe</h4>
                             </li>
                             <li>
-                                <p>40 rue Laure Diebold</p>
+                                <span>40 rue Laure Diebold</span>
                             </li>
                             <li >
-                                <p>69009 Lyon, France</p>
+                                <span>69009 Lyon, France</span>
                             </li>
                             <li>
-                                <p>10 20 30 40 50</p>
+                                <span>10 20 30 40 50</span>
                             </li>
                             <li>
-                                <p>john.doe@gmail.com</p>
+                                <span>john.doe@gmail.com</span>
                             </li>
                             <li>
                                 <ul class="list-inline list-unstyled">
