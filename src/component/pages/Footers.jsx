@@ -11,9 +11,9 @@ import Mentions from "./Mentions";
 function Footers() {
     return(
         <footer class="bg-dark text-light py-3 mt-5">
-            <div class="container">
-                <div class="row mx-lg-5 mt-lg-4 px-lg-5">
-                    <div class="col-md-4">
+            <div class="container col-md-10">
+                <div class="row mx-lg-5 mt-lg-4 px-lg-5 d-flex justify-content-evenly">
+                    <div class="col-md-3">
                         <ul class="list-unstyled w-33">
                             <li>
                                 <h2 class="h4">John Doe</h2>
@@ -51,7 +51,7 @@ function Footers() {
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <ul class="list-unstyled w-33">
                             <li>
                                 <h2 class="h4">Liens utiles</h2>
@@ -73,7 +73,7 @@ function Footers() {
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <ul class="list-unstyled w-33">
                             <li>
                                 <h2 class="h4 d-inline-flex">Mes dernières réalisations</h2>
