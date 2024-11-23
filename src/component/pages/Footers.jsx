@@ -10,13 +10,13 @@ import Mentions from "./Mentions";
 
 function Footers() {
     return(
-        <footer class="bg-dark text-light sticky-bottom">
+        <footer class="bg-dark text-light py-3 mt-5">
             <div class="container">
-                <div class="row mx-lg-5 my-lg-4 px-lg-5">
+                <div class="row mx-lg-5 mt-lg-4 px-lg-5">
                     <div class="col-md-4">
                         <ul class="list-unstyled w-33">
                             <li>
-                                <h4>John Doe</h4>
+                                <h2 class="h4">John Doe</h2>
                             </li>
                             <li>
                                 <span>40 rue Laure Diebold</span>
@@ -54,7 +54,7 @@ function Footers() {
                     <div class="col-md-4">
                         <ul class="list-unstyled w-33">
                             <li>
-                                <h4>Liens utiles</h4>
+                                <h2 class="h4">Liens utiles</h2>
                             </li>
                             <li>
                                 <Link class="link-light text-decoration-none" to="./Home">Accueil</Link>
@@ -76,7 +76,7 @@ function Footers() {
                     <div class="col-md-4">
                         <ul class="list-unstyled w-33">
                             <li>
-                                <h4 class="d-inline-flex">Mes dernières réalisations</h4>
+                                <h2 class="h4 d-inline-flex">Mes dernières réalisations</h2>
                             </li>
                             <li>
                                 <Link class="link-light text-decoration-none" to="./Portfolio">Fresh Food</Link>
