@@ -2,7 +2,7 @@
 
 
 
-function Home() {
+const Home = () => {
     return(
         <div>
             <main class="text-dark">

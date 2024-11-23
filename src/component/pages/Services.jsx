@@ -1,6 +1,6 @@
 
 
-function Services() {
+const Services = () => {
     return(
 
         <div>
