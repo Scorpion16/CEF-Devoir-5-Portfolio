@@ -1,14 +1,7 @@
-import { Routes, Route, Link } from "react-router-dom";
-
-import "../css/footers.css";
-import Home from "./Home";
-import Services from "./Services";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
-import Mentions from "./Mentions";
+import { Link } from "react-router-dom";
 
 
-function Footers() {
+const Footers = () => {
     return(
         <footer class="bg-dark text-light py-3 mt-5">
             <div class="container col-md-10">
@@ -57,19 +50,19 @@ function Footers() {
                                 <h2 class="h4">Liens utiles</h2>
                             </li>
                             <li>
-                                <Link class="link-light text-decoration-none" to="./Home">Accueil</Link>
+                                <Link class="link-light text-decoration-none" to="/">Accueil</Link>
                             </li>
                             <li>
-                                <Link class="link-light text-decoration-none" to="./Services">Services</Link>
+                                <Link class="link-light text-decoration-none" to="/Services">Services</Link>
                             </li>
                             <li>
-                                <Link class="link-light text-decoration-none" to="./Portfolio">Portfolio</Link>
+                                <Link class="link-light text-decoration-none" to="/Portfolio">Portfolio</Link>
                             </li>
                             <li>
-                                <Link class="link-light text-decoration-none" to="./Contact">Contact</Link>
+                                <Link class="link-light text-decoration-none" to="/Contact">Contact</Link>
                             </li>
                             <li>
-                                <Link class="link-light text-decoration-none" to="./Mentions">Mentions</Link>
+                                <Link class="link-light text-decoration-none" to="/Mentions">Mentions</Link>
                             </li>
                         </ul>
                     </div>
@@ -79,34 +72,27 @@ function Footers() {
                                 <h2 class="h4 d-inline-flex">Mes dernières réalisations</h2>
                             </li>
                             <li>
-                                <Link class="link-light text-decoration-none" to="./Portfolio">Fresh Food</Link>
+                                <Link class="link-light text-decoration-none" to="/Portfolio">Fresh Food</Link>
                             </li>
                             <li>
-                                <Link class="link-light text-decoration-none" to="./Portfolio">Restaurant Akira</Link>
+                                <Link class="link-light text-decoration-none" to="/Portfolio">Restaurant Akira</Link>
                             </li>
                             <li>
-                                <Link class="link-light text-decoration-none" to="./Portfolio">Espace bien-être</Link>
+                                <Link class="link-light text-decoration-none" to="/Portfolio">Espace bien-être</Link>
                             </li>
                             <li>
-                                <Link class="link-light text-decoration-none" to="./Portfolio">SEO</Link>
+                                <Link class="link-light text-decoration-none" to="/Portfolio">SEO</Link>
                             </li>
                             <li>
-                                <Link class="link-light text-decoration-none" to="./Portfolio">Création d'una API</Link>
+                                <Link class="link-light text-decoration-none" to="/Portfolio">Création d'una API</Link>
                             </li>
                             <li>
-                                <Link class="link-light text-decoration-none" to="./Portfolio">Maquette d'un site</Link>
+                                <Link class="link-light text-decoration-none" to="/Portfolio">Maquette d'un site</Link>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <Routes>
-                <Route path="./" element={<Home/>}></Route>
-                <Route path="./Services" element={<Services/>}></Route>
-                <Route path="./Portfolio" element={<Portfolio/>}></Route>
-                <Route path="./Contact" element={<Contact/>}></Route>
-                <Route path="./Mentions" element={<Mentions/>}></Route>
-            </Routes>
         </footer>
     );
 }

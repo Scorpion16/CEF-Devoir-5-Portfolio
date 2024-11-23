@@ -1,13 +1,7 @@
-import { Routes, Route, Link } from "react-router-dom";
-
-import Home from "./Home";
-import Services from "./Services";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
-import Mentions from "./Mentions";
+import { Link } from "react-router-dom";
 
 
-function Headers() {
+const Headers = () => {
 
     return(
         <header>
@@ -23,31 +17,24 @@ function Headers() {
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 px-3">
                             <li class="nav-item">
-                                <Link class="nav-link link-light text-uppercase" to="./Home">Home</Link>
+                                <Link class="nav-link link-light text-uppercase" to="/">Home</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link link-light text-uppercase" to="./Services">Services</Link>
+                                <Link class="nav-link link-light text-uppercase" to="/Services">Services</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link link-light text-uppercase" to="./Portfolio">Portfolio</Link>
+                                <Link class="nav-link link-light text-uppercase" to="/Portfolio">Portfolio</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link link-light text-uppercase" to="./Contact">Contact</Link>
+                                <Link class="nav-link link-light text-uppercase" to="/Contact">Contact</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link link-light text-uppercase" to="./Mentions">Mentions légales</Link>
+                                <Link class="nav-link link-light text-uppercase" to="/Mentions">Mentions légales</Link>
                             </li>
                         </ul>
                     </div>                    
                 </div>
             </nav>
-            <Routes>
-                <Route path="./Home" element={<Home/>}></Route>
-                <Route path="./Services" element={<Services/>}></Route>
-                <Route path="./Portfolio" element={<Portfolio/>}></Route>
-                <Route path="./Contact" element={<Contact/>}></Route>
-                <Route path="./Mentions" element={<Mentions/>}></Route>
-            </Routes>
         </header>
     );
 } 

@@ -1,7 +1,7 @@
 
 import "../css/mentions.css";
 
-function Mentions() {
+const Mentions = () => {
     return (
         <div>
             <main>
