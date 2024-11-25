@@ -8,7 +8,7 @@ const Mentions = () => {
                 <div class="d-flex flex-column align-items-center">
                     <h1 class="my-5 pb-4 border-bottom border-primary border-5">Mentions légales</h1>
                 </div>
-                <div class="accordion col-md-8" id="accordionExample">
+                <div class="accordion mx-auto col-md-8" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -17,7 +17,7 @@ const Mentions = () => {
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body d-flex flex-column">
-                                <h4>John Doe</h4>
+                                <h3 class="h4">John Doe</h3>
                                 <span>
                                     <img class="pe-2" src="../../../images/map_icon.svg" alt="icone de carte du pays" />
                                     40 rue Laure Diebold
@@ -30,7 +30,7 @@ const Mentions = () => {
                                     <img class="pe-2" src="../../../images/phone.svg" alt="icone téléphone portable" />
                                     <a href="tel:1020304050" class="styleSuppr">10 20 30 40 50</a>
                                 </span>
-                                <span>
+                                <span class="italique">
                                     <img class="pe-2" src="../../../images/email.svg" alt="icone de lettre avec un arobase" />
                                     <a href="mailto:john.doe@gmail.com" class="styleSuppr">john.doe@gmail.com</a>
                                 </span>
@@ -45,7 +45,7 @@ const Mentions = () => {
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div class="accordion-body d-flex flex-column">
-                                <h4>alwaysdata</h4>
+                                <h3 class="h4">alwaysdata</h3>
                                 <span>91 Rue du Faubourg Saint-Honoré, 75008 Paris</span>
                                 <span>
                                     <a href="www.alwaysdata.com">
@@ -65,11 +65,11 @@ const Mentions = () => {
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <p>
-                                    Ce site a été réalisé par John Doe, étudiant au 
+                                    <span>Ce site a été réalisé par John Doe, étudiant au </span>
                                     <a href="https://www.centre-europeen-formation.fr/" rel="noreferrer" target="_blank">Centre Européen de formation</a>
                                 </p>
                                 <p>
-                                    <span>Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site </span>
+                                    <span class="italique">Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site </span>
                                     <a href="https://pixabay.com/fr/" rel="noreferrer" target="_blank">Pixabay</a>
                                 </p>
                                 <p>
