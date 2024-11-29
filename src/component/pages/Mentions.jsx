@@ -1,5 +1,6 @@
-
 import "../css/mentions.css";
+import "../css/style.css";
+
 
 const Mentions = () => {
     return (
