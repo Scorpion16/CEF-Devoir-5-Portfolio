@@ -1,6 +1,5 @@
-
-
 import "../css/contact.css";
+import "../css/style.css";
 
 
 const Contact = () => {
