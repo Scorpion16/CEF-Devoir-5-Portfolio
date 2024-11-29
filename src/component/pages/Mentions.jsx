@@ -5,8 +5,8 @@ const Mentions = () => {
     return (
         <div>
             <main>
-                <div class="d-flex flex-column align-items-center">
-                    <h1 class="my-5 pb-4 border-bottom border-primary border-5">Mentions légales</h1>
+                <div class="col-3 mx-auto my-5 pb-4 border-bottom border-primary border-5 text-center">
+                    <h1>Mentions légales</h1>
                 </div>
                 <div class="accordion mx-auto col-md-8" id="accordionExample">
                     <div class="accordion-item">
