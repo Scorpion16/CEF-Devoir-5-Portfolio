@@ -1,0 +1,9 @@
+.modif-link:hover {
+    text-decoration: underline;
+}
+
+.modif-link:focus {
+    color: white;
+    text-decoration: underline;
+    font-weight: 700;
+}
