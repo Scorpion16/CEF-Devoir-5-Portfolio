@@ -42,7 +42,7 @@ const Contact = () => {
                                 </form>
                             </div>
                         </section>
-                        <section class="col-lg-6 d-flex flex-column">
+                        <section class="col-lg-6">
                             <div class="d-flex flex-column">
                                 <h2 class="h3 pb-2 border-bottom border-primary border-3">Mes coordonnées</h2>
                                 <h3 class="h4">John Doe</h3>
@@ -62,11 +62,11 @@ const Contact = () => {
                                     <img class="pe-2" src="../../../images/email.svg" alt="icone de lettre avec un arobase" />
                                     <a href="mailto:john.doe@gmail.com" class="styleSuppr">john.doe@gmail.com</a>
                                 </span>
-                                    <iframe class="mx-md-3 mt-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.6269657540524!2d4.796403975973387!3d45.77866571240255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb65edac5b3f%3A0xe01c47049cb2e2b9!2s40%20Rue%20Laure%20Diebold%2C%2069009%20Lyon!5e0!3m2!1sfr!2sfr!4v1732554202261!5m2!1sfr!2sfr" 
-                                        title="Google Maps" width="300" height="200" 
-                                        allowfullscreen="" loading="lazy" 
-                                        referrerpolicy="no-referrer-when-downgrade">
-                                    </iframe>
+                                <iframe class="mx-md-3 mt-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2782.6269657540524!2d4.796403975973387!3d45.77866571240255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb65edac5b3f%3A0xe01c47049cb2e2b9!2s40%20Rue%20Laure%20Diebold%2C%2069009%20Lyon!5e0!3m2!1sfr!2sfr!4v1732554202261!5m2!1sfr!2sfr" 
+                                    title="Google Maps" width="300" height="200" 
+                                    allowfullscreen="" loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
                             </div>
                         </section>
                     </div>
