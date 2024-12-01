@@ -28,7 +28,7 @@ const Contact = () => {
                                         <input type="email" class="form-control" id="mail" placeholder="Votre adresse email" required></input>
                                     </div>
                                     <div class="mb-3">
-                                        <input type="tel" class="form-control" id="tel" placeholder="Votre numéro de téléphone"></input>
+                                        <input type="tel" class="form-control" id="tel" placeholder="Votre numéro de téléphone" required></input>
                                     </div>
                                     <div class="mb-3">
                                         <input type="text" class="form-control" id="sujet" placeholder="Sujet" required></input>

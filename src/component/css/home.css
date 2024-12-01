@@ -11,3 +11,7 @@
         margin: auto;
     }
 }
+
+.bouton-style:hover {
+    opacity: 90%;
+}

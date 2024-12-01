@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 import "../css/style.css";
+import "../css/footers.css";
 
 const Footers = () => {
     return(
@@ -26,20 +27,20 @@ const Footers = () => {
                                     <span>john.doe@gmail.com</span>
                                 </li>
                                 <li>
-                                    <ul class="list-inline list-unstyled">
+                                    <ul class="list-inline list-unstyled mt-2">
                                         <li class="list-inline-item pe-1">
                                             <a href="https://github.com/">
-                                                <img class="icon" src="../../../images/github.svg" alt="icone github"></img>
+                                                <img class="icon icon-color" src="../../../images/github.svg" alt="icone github"></img>
                                             </a>
                                         </li>
                                         <li class="list-inline-item px-1">
                                             <a href="https://x.com/">
-                                                <img class="icon" src="../../../images/twitter_x.svg" alt="icone x"></img>
+                                                <img class="icon icon-color" src="../../../images/twitter_x.svg" alt="icone x"></img>
                                             </a>
                                         </li>
                                         <li class="list-inline-item ps-1">
                                             <a href="https://www.linkedin.com/">
-                                                <img class="icon" src="../../../images/linkedin.svg" alt="icone linkedin"></img>
+                                                <img class="icon icon-color" src="../../../images/linkedin.svg" alt="icone linkedin"></img>
                                             </a>
                                         </li>
                                     </ul>
@@ -54,19 +55,19 @@ const Footers = () => {
                                     <h2 class="h4">Liens utiles</h2>
                                 </li>
                                 <li>
-                                    <Link class="link-light text-decoration-none" to="/">Accueil</Link>
+                                    <Link class="link-light text-decoration-none gras-link" to="/">Accueil</Link>
                                 </li>
                                 <li>
-                                    <Link class="link-light text-decoration-none" to="/Services">Services</Link>
+                                    <Link class="link-light text-decoration-none gras-link" to="/Services">Services</Link>
                                 </li>
                                 <li>
-                                    <Link class="link-light text-decoration-none" to="/Portfolio">Portfolio</Link>
+                                    <Link class="link-light text-decoration-none gras-link" to="/Portfolio">Portfolio</Link>
                                 </li>
                                 <li>
-                                    <Link class="link-light text-decoration-none" to="/Contact">Contact</Link>
+                                    <Link class="link-light text-decoration-none gras-link" to="/Contact">Contact</Link>
                                 </li>
                                 <li>
-                                    <Link class="link-light text-decoration-none" to="/Mentions">Mentions</Link>
+                                    <Link class="link-light text-decoration-none gras-link" to="/Mentions">Mentions</Link>
                                 </li>
                             </ul>
                         </div>
@@ -78,22 +79,22 @@ const Footers = () => {
                                     <h2 class="h4 d-inline-flex">Mes dernières réalisations</h2>
                                 </li>
                                 <li>
-                                    <Link class="link-light text-decoration-none" to="/Portfolio">Fresh Food</Link>
+                                    <Link class="link-light text-decoration-none gras-link" to="/Portfolio">Fresh Food</Link>
                                 </li>
                                 <li>
-                                    <Link class="link-light text-decoration-none" to="/Portfolio">Restaurant Akira</Link>
+                                    <Link class="link-light text-decoration-none gras-link" to="/Portfolio">Restaurant Akira</Link>
                                 </li>
                                 <li>
-                                    <Link class="link-light text-decoration-none" to="/Portfolio">Espace bien-être</Link>
+                                    <Link class="link-light text-decoration-none gras-link" to="/Portfolio">Espace bien-être</Link>
                                 </li>
                                 <li>
-                                    <Link class="link-light text-decoration-none" to="/Portfolio">SEO</Link>
+                                    <Link class="link-light text-decoration-none gras-link" to="/Portfolio">SEO</Link>
                                 </li>
                                 <li>
-                                    <Link class="link-light text-decoration-none" to="/Portfolio">Création d'una API</Link>
+                                    <Link class="link-light text-decoration-none gras-link" to="/Portfolio">Création d'una API</Link>
                                 </li>
                                 <li>
-                                    <Link class="link-light text-decoration-none" to="/Portfolio">Maquette d'un site</Link>
+                                    <Link class="link-light text-decoration-none gras-link" to="/Portfolio">Maquette d'un site</Link>
                                 </li>
                             </ul>
                         </div>

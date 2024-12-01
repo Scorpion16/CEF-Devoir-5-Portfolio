@@ -1,0 +1,11 @@
+.icon-color:hover {
+    opacity: 100%;
+}
+
+.gras-link:hover {
+    font-weight: 700;
+}
+
+.icon {
+    opacity: 50%;
+}
