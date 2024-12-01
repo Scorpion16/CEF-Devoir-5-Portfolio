@@ -7,6 +7,7 @@ const Portfolio = () => {
         <div>
             <main>
                 <div>
+                    <img src="../../../images/banner.jpg" class="img-fluid" alt="Lumière bleu avec un faisceau qui traverse de droite à gauche"></img>
                     <div class="col-8 col-md-3 mx-auto my-5 pb-4 border-bottom border-primary border-5 text-center">
                         <h1>Portfolio</h1>
                         <span>Voici quelques-unes de mes réalisations</span>
