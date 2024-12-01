@@ -1,25 +1,25 @@
 import "../css/style.css";
+import "../css/card.css";
 
 
 const Services = () => {
     return(
-
         <div>
             <main>
                 <img src="../../../images/banner.jpg" class="img-fluid" alt="Lumière bleu avec un faisceau qui traverse de droite à gauche"></img>
                 <div class="col-4 mx-auto my-5 pb-4 border-bottom border-primary border-5 text-center">
-                    <h1 class="">Mon offre de services</h1>
-                    <span class="">Voici les prestations sur 
+                    <h1>Mon offre de services</h1>
+                    <span>Voici les prestations sur 
                         lesquelles je peux intervenir</span>
                 </div>
                 <div>
                     <div class="container col-md-10">
                         <div class="row d-flex justify-content-center">
-                            <section class="col-lg-3 my-2 mx-2 px-3 text-center border border-dark border-opacity-25 rounded-1">
-                                <div>
+                            <section class="card col-lg-3 my-2 mx-2 px-3 text-center border border-dark border-opacity-25 rounded-1 modif-card">
+                                <div class="card-body">
                                     <img class="py-5" src="../../../images/icone_pinceau.svg" alt="icone de pinceau" />
-                                    <h2 class="h5">UX Design</h2>
-                                    <p>L'UX Design est une discipline 
+                                    <h2 class="card-title h5">UX Design</h2>
+                                    <p class="card-text">L'UX Design est une discipline 
                                         qui consiste à concevoir des 
                                         produits (sites web, 
                                         applications mobiles, logiciels, 
@@ -31,11 +31,11 @@ const Services = () => {
                                         agréable possible</p>
                                 </div>
                             </section>
-                            <section class="col-lg-3 my-2 mx-2 px-3 text-center border border-dark border-opacity-25 rounded-1">
-                                <div>
+                            <section class="card col-lg-3 my-2 mx-2 px-3 text-center border border-dark border-opacity-25 rounded-1 modif-card">
+                                <div class="card-body">
                                     <img class="py-5" src="../../../images/icon_code.svg" alt="icone de balise html" />
-                                    <h2 class="h5">Développement web</h2>
-                                    <p>Le développement de sites web 
+                                    <h2 class="card-title h5">Développement web</h2>
+                                    <p class="card-text">Le développement de sites web 
                                         consiste à créer des sites internet 
                                         en utilisant des langages de 
                                         programmation (HTML, CSS, JavaScript, 
@@ -44,11 +44,11 @@ const Services = () => {
                                     </p>
                                 </div>
                             </section>
-                            <section class="col-lg-3 my-2 mx-2 px-3 text-center border border-dark border-opacity-25 rounded-1">
-                                <div>
+                            <section class="card col-lg-3 my-2 mx-2 px-3 text-center border border-dark border-opacity-25 rounded-1 modif-card">
+                                <div class="card-body">
                                     <img class="py-5" src="../../../images/icone_loupe.svg" alt="icone de loupe" />
-                                    <h2 class="h5">Référencement</h2>
-                                    <p>Le référencement naturel (SEO) 
+                                    <h2 class="card-title h5">Référencement</h2>
+                                    <p class="card-text">Le référencement naturel (SEO) 
                                         est une technique qui consiste à 
                                         optimiser un site web pour le 
                                         faire remonter dans les résultats 

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 import "../css/style.css";
+import "../css/headers.css";
 
 const Headers = () => {
 
@@ -18,19 +19,19 @@ const Headers = () => {
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 px-3">
                             <li class="nav-item">
-                                <Link class="nav-link link-light text-uppercase" to="/">Home</Link>
+                                <Link class="nav-link text-uppercase modif-link" to="/">Home</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link link-light text-uppercase" to="/Services">Services</Link>
+                                <Link class="nav-link text-uppercase modif-link" to="/Services">Services</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link link-light text-uppercase" to="/Portfolio">Portfolio</Link>
+                                <Link class="nav-link text-uppercase modif-link" to="/Portfolio">Portfolio</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link link-light text-uppercase" to="/Contact">Contact</Link>
+                                <Link class="nav-link text-uppercase modif-link" to="/Contact">Contact</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link link-light text-uppercase" to="/Mentions">Mentions légales</Link>
+                                <Link class="nav-link text-uppercase modif-link" to="/Mentions">Mentions légales</Link>
                             </li>
                         </ul>
                     </div>                    

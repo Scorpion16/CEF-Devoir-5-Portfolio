@@ -13,7 +13,7 @@ const Home = () => {
                     <div class="text-center text-light align-middle position-absolute top-50 start-50 translate-middle">
                         <h1 class="h1 mb-3">Bonjour, je suis John Doe</h1>
                         <h2 class="h3 mb-3">Développeur web full stack</h2>
-                        <bouton type="button" class="btn btn-danger">
+                        <bouton type="button" class="btn btn-danger bouton-style">
                             <Link to="/Modale"></Link>
                             En savoir plus
                         </bouton>
