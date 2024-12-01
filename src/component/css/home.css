@@ -1,0 +1,13 @@
+@media screen and (max-width: 469px) {
+    .h1 {
+        font-size: large;
+        font-weight: 700;
+        margin: auto;
+    }
+
+    .h3 {
+        font-size: medium;
+        font-weight: 700;
+        margin: auto;
+    }
+}
