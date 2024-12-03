@@ -17,7 +17,7 @@ const Services = () => {
                         <div class="row d-flex justify-content-center">
                             <section class="card col-lg-3 my-2 mx-2 px-3 text-center border border-dark border-opacity-25 rounded-1 modif-card">
                                 <div class="card-body">
-                                    <img class="py-5" src="../../../images/icone_pinceau.svg" alt="icone de pinceau" />
+                                    <img class="py-5" src="../../../images/icone_pinceau.svg" alt="icone de pinceau"></img>
                                     <h2 class="card-title h5">UX Design</h2>
                                     <p class="card-text">L'UX Design est une discipline 
                                         qui consiste à concevoir des 
@@ -33,7 +33,7 @@ const Services = () => {
                             </section>
                             <section class="card col-lg-3 my-2 mx-2 px-3 text-center border border-dark border-opacity-25 rounded-1 modif-card">
                                 <div class="card-body">
-                                    <img class="py-5" src="../../../images/icon_code.svg" alt="icone de balise html" />
+                                    <img class="py-5" src="../../../images/icon_code.svg" alt="icone de balise html"></img>
                                     <h2 class="card-title h5">Développement web</h2>
                                     <p class="card-text">Le développement de sites web 
                                         consiste à créer des sites internet 
@@ -46,7 +46,7 @@ const Services = () => {
                             </section>
                             <section class="card col-lg-3 my-2 mx-2 px-3 text-center border border-dark border-opacity-25 rounded-1 modif-card">
                                 <div class="card-body">
-                                    <img class="py-5" src="../../../images/icone_loupe.svg" alt="icone de loupe" />
+                                    <img class="py-5" src="../../../images/icone_loupe.svg" alt="icone de loupe"></img>
                                     <h2 class="card-title h5">Référencement</h2>
                                     <p class="card-text">Le référencement naturel (SEO) 
                                         est une technique qui consiste à 

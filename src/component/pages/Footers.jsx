@@ -29,17 +29,17 @@ const Footers = () => {
                                 <li>
                                     <ul class="list-inline list-unstyled mt-2">
                                         <li class="list-inline-item pe-1">
-                                            <a href="https://github.com/">
+                                            <a href="https://github.com/" target="_blank" rel="noreferrer">
                                                 <img class="icon icon-color" src="../../../images/github.svg" alt="icone github"></img>
                                             </a>
                                         </li>
                                         <li class="list-inline-item px-1">
-                                            <a href="https://x.com/">
+                                            <a href="https://x.com/" target="_blank" rel="noreferrer">
                                                 <img class="icon icon-color" src="../../../images/twitter_x.svg" alt="icone x"></img>
                                             </a>
                                         </li>
                                         <li class="list-inline-item ps-1">
-                                            <a href="https://www.linkedin.com/">
+                                            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
                                                 <img class="icon icon-color" src="../../../images/linkedin.svg" alt="icone linkedin"></img>
                                             </a>
                                         </li>
