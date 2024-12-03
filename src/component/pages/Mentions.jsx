@@ -20,19 +20,19 @@ const Mentions = () => {
                             <div class="accordion-body d-flex flex-column">
                                 <h3 class="h4">John Doe</h3>
                                 <span>
-                                    <img class="pe-2" src="../../../images/map_icon.svg" alt="icone de carte du pays" />
+                                    <img class="pe-2" src="../../../images/map_icon.svg" alt="icone de carte du pays"></img>
                                     40 rue Laure Diebold
                                 </span>
                                 <span>
-                                    <img class="pe-2" src="../../../images/geo_loc.svg" alt="icone de localisation" />
+                                    <img class="pe-2" src="../../../images/geo_loc.svg" alt="icone de localisation"></img>
                                     69009 Lyon, France
                                 </span>
                                 <span>
-                                    <img class="pe-2" src="../../../images/phone.svg" alt="icone téléphone portable" />
+                                    <img class="pe-2" src="../../../images/phone.svg" alt="icone téléphone portable"></img>
                                     <a href="tel:1020304050" class="styleSuppr">10 20 30 40 50</a>
                                 </span>
                                 <span class="italique">
-                                    <img class="pe-2" src="../../../images/email.svg" alt="icone de lettre avec un arobase" />
+                                    <img class="pe-2" src="../../../images/email.svg" alt="icone de lettre avec un arobase"></img>
                                     <a href="mailto:john.doe@gmail.com" class="styleSuppr">john.doe@gmail.com</a>
                                 </span>
                             </div>
@@ -50,7 +50,7 @@ const Mentions = () => {
                                 <span>91 Rue du Faubourg Saint-Honoré, 75008 Paris</span>
                                 <span>
                                     <a href="www.alwaysdata.com">
-                                        <img class="pe-2" src="../../../images/globe.svg" alt="icone de planète quadrillé" />
+                                        <img class="pe-2" src="../../../images/globe.svg" alt="icone de planète quadrillé"></img>
                                         www.alwaysdata.com
                                     </a>
                                 </span>
