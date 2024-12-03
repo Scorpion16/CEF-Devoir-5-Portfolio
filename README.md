@@ -34,7 +34,7 @@ Footer                      Version desktop (contiendra 3 colonnes)
 
 Home                        Version desktop et version tablette
                             Image de fond pleine page (Hero), 
-                            Texte ligne 1 <h1> et texte ligne 2 <h2>
+                            Texte ligne 1 < h1 > et texte ligne 2 < h2 >
                             Bouton fond rouge écriture blanche
                             2 colonnes une a propos et une mes compétences
                                 Dans a propos mettre une photo et un texte descriptif
@@ -42,7 +42,7 @@ Home                        Version desktop et version tablette
                                     maitrisés avec une barre de progression (bootstrap)
                                 Le backgroud est blanc
                             
-                            Version smartphone image, titres <h1> et <h2> et bouton identique aux autres versions
+                            Version smartphone image, titres < h1 > et < h2 > et bouton identique aux autres versions
                             Les 2 colonnes a propos et mes compétences sont l'une au dessus de l'autre maintenant
                             La couleur du background est identique
 
@@ -73,7 +73,7 @@ Contact                     Version desktop et tablette
 
 Style                       Police Google sans-sérif "Nunito Sans"
                             Graisse de 400 pour le texte normal
-                            Graisse de 600 pour les titres et les balises <strong>
+                            Graisse de 600 pour les titres et les balises < strong >
 
 Icones                      Les icones utilisés sont celles de la bibliothèque bootstrap :
                             https://icons.getbootstrap.com/
